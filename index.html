@@ -45,6 +45,11 @@
 		<link rel="stylesheet" href="css/skins/default.css">
 
 		<style>
+			html {
+				scroll-behavior: smooth; /* 부드러운 스크롤 */
+				scroll-padding-top: 60px; /* 상단바 높이에 맞게 조정 */
+			}
+
 			.tp-banner-container {
 				position: relative;
 				width: 100%;
@@ -275,7 +280,7 @@
 				</div>
 				<!-- home slider end -->
 				<!-- Welcome Box start -->
-				<div id="about" class="welcome page-section">
+				<div id="about" class="welcome page-section" style="padding-bottom: 0;">
 					<div class="container">
 						<div class="row">
 							<h2 class="bolder" style="text-align: left; margin-bottom: 20px;">
@@ -300,7 +305,7 @@
 					</div>
 				</div>
 				<!-- mov slider start -->
-				<div id="intro" class="sectionWrapper">
+				<div id="intro" class="sectionWrapper"  style="padding-top: 40px;">
 					<div class="container">
 						<div class="row">
 							<div class="cell-12 fx" data-animate="fadeInUp">
